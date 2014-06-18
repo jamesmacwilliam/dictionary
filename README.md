@@ -29,3 +29,7 @@ type the following into your terminal
 ```
 rspec spec
 ```
+
+Demo
+==============
+http://jm-dictionary-app.herokuapp.com/
