@@ -1,0 +1,16 @@
+%html
+  %head
+    %link{media: 'all', rel: 'stylesheet', type: 'text/css', href: '/stylesheets/application.css'}
+  %body
+    %table
+      %tr
+        %th
+          %h4
+            Sequences
+        %th
+          %h4
+            Words
+      - @sequences.each do |sequence, word|
+        %tr
+          %td=sequence
+          %td=word
